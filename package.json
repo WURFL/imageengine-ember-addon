@@ -1,7 +1,7 @@
 {
-  "name": "ImageEngine",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "name": "ember-addon-imageengine",
+  "version": "0.0.4",
+  "description": "ImageEngine Addon for Ember-cli",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -15,7 +15,7 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Vishnu Vardhana",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.1.2",
@@ -38,7 +38,8 @@
     "ember-try": "0.0.6"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-image"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.3"
