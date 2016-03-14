@@ -26,7 +26,10 @@ WebP is a lightweigh image format with great quality. WebP is well supported by 
 
 * `npm i ember-addon-imageengine --save` this repository
 
-##Using component - registered users ([Registration](https://scientiamobile.com/imageengine/signup?utm_source=npmjs.com&utm_medium=page&utm_term=ember-addon&utm_campaign=ember-addon#imageengine-lite))
+## Using component - registered users ([Registration](https://scientiamobile.com/imageengine/signup?utm_source=npmjs.com&utm_medium=page&utm_term=ember-addon&utm_campaign=ember-addon#imageengine-lite))
+
+In order to use the addon you need to register to obtain your personal token.
+
 	* In the build/environment.js file in your ember-cli project
 	* Add this object to your EmberENV variable
 	* ImageEngine:{
