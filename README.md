@@ -26,6 +26,15 @@ WebP is a lightweigh image format with great quality. WebP is well supported by 
 
 * `npm i ember-addon-imageengine --save` this repository
 
+##Using component - registered users ([Registration](https://scientiamobile.com/imageengine/signup?utm_source=npmjs.com&utm_medium=page&utm_term=ember-addon&utm_campaign=ember-addon#imageengine-lite))
+	* In the build/environment.js file in your ember-cli project
+	* Add this object to your EmberENV variable
+	* ImageEngine:{
+        token:"Your-Token-Goes-Here",
+        is_lite:(true - if you are using only lite version , default:false)
+      }
+
+
 
 ## Usage
 
@@ -36,4 +45,7 @@ Check the [ImageEngine Documentation](https://docs.scientiamobile.com/documentat
 * Example : To set width and height of the image call ImageEngine with options w and h
 `{{image-engine  ImgSrc="http://link-to-your-hosted-image.png"  w="100" h="100"}}`
 
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+* Example : {{image-engine ImgSrc="http://link-to-your-hosted-image.png"  w="200" h="200" m="letterbox" pc="300"}}
+
+
+For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/)
